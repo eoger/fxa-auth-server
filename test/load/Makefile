@@ -13,7 +13,7 @@ build:
 	$(INSTALL) gevent
 	$(INSTALL) pexpect
 	$(INSTALL) https://github.com/mozilla-services/loads/archive/master.zip
-	$(INSTALL) 'hawkauthlib'
+	$(INSTALL) https://github.com/mozilla/PyFxA/archive/master.zip
 	rm -rf ./local  # ubuntu, why you create this useless folder?
 
 # Clean all the things installed by `make build`.
